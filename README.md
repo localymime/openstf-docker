@@ -11,10 +11,6 @@ This Project is Based on The [Openstf Project](https://github.com/openstf/stf)
 
 **STF** (or Smartphone Test Farm) is a web application for debugging smartphones, smartwatches and other gadgets remotely, from the comfort of your browser.
 
-STF was originally developed at [CyberAgent](https://www.cyberagent.co.jp/en/) to control a growing collection of more than 160 devices. As of July 2016 development is mainly sponsored by [HeadSpin](https://performance.headspin.io/) and [other individual contributors](https://opencollective.com/openstf).
-
-We  welcome financial contributions in full transparency on our [open collective](https://opencollective.com/openstf).
-
 ![Close-up of device shelf](doc/shelf_closeup_790x.jpg?raw=true)
 
 ![Super short screencast showing usage](doc/7s_usage.gif?raw=true)
