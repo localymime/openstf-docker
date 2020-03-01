@@ -1,0 +1,31 @@
+version: '2'
+
+volumes:
+  rethink-data:
+    driver: local
+
+services:
+  rethinkdb:
+    image: rethinkdb
+    container_name: m-rethink
+    ports:
+      - "8080:8080"
+      - "28015:28015"
+      - "29015:29015"
+    restart: always
+    volumes:
+      - "rethink-data:/data"
+    network_mode: host
+    command: "rethinkdb --bind all"
+ 
+  stf-local:
+    image: openstf/stf
+    container_name: m-stf
+    ports:
+      - "7100:7100"
+      - "7110:7110"
+      - "7120:7120"
+      - "7400-7500:7400-7500"
+    restart: always
+    network_mode: host
+    command: stf local --public-ip 127.0.0.1 --provider-min-port 7400 --provider-max-port 7500 --adb-host 172.17.0.1
