@@ -18,9 +18,3 @@ We  welcome financial contributions in full transparency on our [open collective
 ![Close-up of device shelf](doc/shelf_closeup_790x.jpg?raw=true)
 
 ![Super short screencast showing usage](doc/7s_usage.gif?raw=true)
-
-## Credits
-
-### Sponsors
-
-Thank you to all our sponsors! (please ask your company to also support this open source project by [becoming a sponsor](https://opencollective.com/openstf#sponsor))
