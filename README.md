@@ -2,7 +2,7 @@
 Open STF Docker Compose File (Host Network Mode)
 This Project is Based on The [Openstf Project](https://github.com/openstf/stf)
 
-<img src="res/common/logo/exports/STF-128.png?raw=true" style="width:100px;height:100px;" alt="STF">
+<img src="doc/STF-128.png?raw=true" style="width:100px;height:100px;" alt="STF">
 
 [![Build Status](https://travis-ci.org/openstf/stf.svg?branch=master)](https://travis-ci.org/openstf/stf)
 [![Docker Pulls](https://img.shields.io/docker/pulls/openstf/stf.svg)](https://hub.docker.com/r/openstf/stf/)
@@ -24,11 +24,3 @@ We  welcome financial contributions in full transparency on our [open collective
 ### Sponsors
 
 Thank you to all our sponsors! (please ask your company to also support this open source project by [becoming a sponsor](https://opencollective.com/openstf#sponsor))
-
-#### Gold Sponsor
-
-[<img src="doc/sponsors/headspin-wordmark-orange.png?raw=true" alt="HeadSpin" width="400">](https://ui.headspin.io/register?referral=start-testing-hs)
-
-> [HeadSpin](https://headspin.io/) provides secure and scalable STF for iOS integrated with Appium/XCTest/Selenium/Espresso, High speed interaction Audio/Video/Game testing and AI based Root cause analysis for Performance Management. It's free to start using HeadSpin in 150+ locations worldwide! [Try it out for free.](https://ui.headspin.io/register?referral=start-testing-hs)
-
-HeadSpin offers a generous monthly contribution towards STF development.
